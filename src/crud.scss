@@ -180,7 +180,7 @@
         display: flex;
         justify-content: space-around;
         background: none;
-        border-radius: 21px;
+        border-radius: 1px;
         margin-left: 5px;
         margin-right: 5px;
         background: none;
@@ -189,7 +189,8 @@
 }
 @media screen and (max-width: 648px) {
     .row_list {
-        border-radius: 21px;
+        border-radius: 1px;
+      
         width: 95%;
         background: none;
         background-image: linear-gradient(to left, rgb(46 171 23 / 20%), rgba(5, 6, 6, 0.7));
@@ -201,7 +202,7 @@
     @media screen and (max-width: 648px) {
         .img {    
             border-radius: 0 0 80% 80%;
-            margin-top: -181px;
+            margin-top: -202px;
             position: absolute;
             width: 32%;
         }
@@ -224,6 +225,7 @@
 }
 @media screen and (max-width: 648px) {
     .right_side {
+        border-radius: 1px;
         display: flex;
         justify-content: flex-end;
         min-width: 45%;
@@ -235,6 +237,7 @@
 }
 @media screen and (max-width: 648px) {
     .left_side {
+        border-radius: 1px;
         display: flex;
         font-family: cursive;
         justify-content: flex-end;
