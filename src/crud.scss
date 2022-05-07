@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+ 
 }
 .App{   
     height: 100vh;
@@ -49,29 +50,26 @@
     .row_list{
         margin-bottom: 10px;
         background-image: linear-gradient(to left, rgba(159, 25, 25, 0.75), rgba(36, 22, 153, 0.08));
-        box-shadow: 0 25.7em 5.5em 7.5em rgb(203 203 203 / 68%);
+        box-shadow: 0 25.7em 5.5em 7.5em rgb(115 155 102 / 68%);
         margin-top: 10px;
-        color: white;
+        color: #879185;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: inherit;
         line-height: 5px;
         height: 70vh;
         border: 1px solid;
-        border-radius: 10px;
-        width: 80%;
+        border-radius: 21px;
+        width: 96%;
 }
 
 .column_list {
     flex-direction: column;
     border: 1px solid;
     color: #836b27;
-    
-    // width: 90vw;
-
     border-radius: 30px;
-    // height: 408px;
+    margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -85,6 +83,7 @@
 .img{
     box-shadow: 0 0.7em 1.5em -0.5em rgb(39 114 61 / 60%);
     margin-bottom: 10px;
+    max-height: 403px;
     width: 42%;
     display: flex;
     align-items: center;
@@ -96,10 +95,14 @@
 }
 .left_paragraph{
     font-size: 12px;
+    text-shadow: 20px -3px 20px #8f9f82;
+    color: #ffffff;
     
 }
 .right_paragraph{
     font-size: 12px;
+    text-shadow: 20px -3px 20px #8f9f82;
+    color: #ffffff;
 }
 
 
@@ -111,22 +114,39 @@
     font-size: 21px;
 }
 .left_side{
+    height: 67vh;
     line-height: 0px;
-    background-image: linear-gradient(to left, rgba(159, 25, 25, 0.38), rgb(179, 179, 179));
-    background-color: #ffffff;
+    background-image: linear-gradient(to left, rgba(85, 211, 20, 0.11),  rgba(227, 126, 0, 0.09));
+    box-shadow: 0 0.7em 1.5em -0.5em rgb(39 114 61 / 60%);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 30%;
+    width: 22%;
     border-radius: 10px;
-    border: 1px solid;
+    border-bottom: 1px solid #ffffff29;
+    border-left: 1px solid #ffffff29;
+    border-top: 1px solid #ffffff29;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: black;
-    /* height: auto; */
-    height: 67vh;
+    // line-height: 0px;
+    // background-image: linear-gradient(to left, rgba(159, 25, 25, 0.38), rgb(179, 179, 179));
+    // background-color: #ffffff;
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+    // margin-left: 10px;
+    // margin-right: 10px;
+    // width: 22%;
+    // border-radius: 10px;
+    // border-bottom: 1px solid white;
+    // border-left: 1px solid white;
+    // border-top:1px solid white;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // color: black;
+    // height: 67vh;
 }
 // .column_list{
 //     border: 1px solid;
@@ -136,14 +156,16 @@
     height: 67vh;
     line-height: 0px;
     background-image: linear-gradient(to left, rgb(227 126 0 / 9%), rgb(85 211 20 / 11%));
-    box-shadow: 0 0.7em 1.5em -0.5em rgb(39 114 61 / 60%);
+    box-shadow: 0 0.7em 1.5em -0.5em rgb(25 48 112 / 77%);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 30%;
+    width: 22%;
     border-radius: 10px;
-    border: 1px solid;
+    border-bottom: 1px solid #ffffff29;
+    border-right: 1px solid #ffffff29;
+    border-top:1px solid #ffffff29;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,68 +173,71 @@
 // #######################################################################
 @media screen and (max-width: 648px) {
     .column_list {
-        height: 100vh;
-        margin-left: 10px;
-        margin-right: 10px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 21px;
+        // width: 95%;
+        background: none;
        
     }   
 }
 @media screen and (max-width: 648px) {
     .row_list {
-        width: 97%;
-        margin-top: -58px;
-        height: 93%;
-        border-radius: 121px;
-        // box-shadow: 0 43.7em 62.5em 7.5em rgb(203 203 203 / 68%);
+        border-radius: 21px;
+        width: 95%;
+        background: none;
+        background-image: linear-gradient(to left, rgba(255, 131, 0, 0.14), rgb(5 6 6 / 70%));
+        box-shadow: 0 25.7em 5.5em 7.5em rgb(2 10 4);
 }
 
 
      
     @media screen and (max-width: 648px) {
         .img {    
-            margin-top: -315px;
+            margin-top: -149px;
             position: absolute;
-            width: 54%;
-            border-radius: 16%;
-            
-
+            width: 29%;
+            border-radius: 0% 0% 80% 80%;
         }
 }
-@media screen and (max-width: 648px) {
-    .right_side, .left_side {
-        margin-top: 52%;
-        min-width: 44%;
-        height: 56%;
+// @media screen and (max-width: 648px) {
+//     .right_side, .left_side {
+//         min-width: 42%;
       
 
-}
+// }
 @media screen and (max-width: 648px) {
     .App {
-        height: auto;
-
 }
-@media screen and (max-width: 648px) {
-    .left_paragraph, .right_paragraph{
-        font-size: 14px;
-        
-    }
-}
+// @media screen and (max-width: 648px) {
+//     .left_paragraph, .right_paragraph{
+//         font-size: 11px;    
+//     }
+// }
     
 }
 @media screen and (max-width: 648px) {
     .right_side {
-        padding: 20px;
-       
-        // border-radius: 10px 45px 45px 10px;
-
+        display: flex;
+        justify-content: flex-end;
+        min-width: 45%;
+    text-align: right;
+    margin-left: -4.7%;
+    padding-right: 30px;
+    background-image: linear-gradient(to left, rgb(1 10 34 / 75%), rgb(0 0 0 / 11%));
+    box-shadow: 0 0.7em 1.5em -0.5em rgb(255 241 241 / 77%);
 }
 @media screen and (max-width: 648px) {
     .left_side {
-       
-        // border-radius: 45px 10px 10px 45px; 
-        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+        min-width: 45%;
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 4.7%;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.11), rgb(3 6 12));
+        box-shadow: 0 0.7em 1.5em -0.5em rgb(255 241 241 / 77%);
       
-}
 }
 }
 }
