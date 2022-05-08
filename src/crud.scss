@@ -229,7 +229,7 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1607843137);
         border-radius: 1px;
         display: flex;
-        justify-content: flex-end;
+        justify-content: start;
         min-width: 45%;
     text-align: right;
     margin-left: -10%;
@@ -246,7 +246,7 @@
         border-right: 2px solid rgba(255, 255, 255, 0.79);
         border-top: 1px solid rgba(255, 255, 255, 0.14);
         font-family: cursive;
-        justify-content: flex-end;
+        justify-content: start;
         min-width: 45%;
         text-align: left;
         padding-left: 10px;
