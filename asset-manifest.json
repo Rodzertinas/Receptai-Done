@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Receptai-Done/static/css/main.f5574d40.css",
-    "main.js": "/Receptai-Done/static/js/main.ecf8afbd.js",
+    "main.css": "/Receptai-Done/static/css/main.842b0b52.css",
+    "main.js": "/Receptai-Done/static/js/main.68202708.js",
     "static/js/787.28cb0dcd.chunk.js": "/Receptai-Done/static/js/787.28cb0dcd.chunk.js",
+    "static/media/heart.svg": "/Receptai-Done/static/media/heart.0b8eff325927113b0eb99952147cff49.svg",
     "index.html": "/Receptai-Done/index.html",
-    "main.f5574d40.css.map": "/Receptai-Done/static/css/main.f5574d40.css.map",
-    "main.ecf8afbd.js.map": "/Receptai-Done/static/js/main.ecf8afbd.js.map",
+    "main.842b0b52.css.map": "/Receptai-Done/static/css/main.842b0b52.css.map",
+    "main.68202708.js.map": "/Receptai-Done/static/js/main.68202708.js.map",
     "787.28cb0dcd.chunk.js.map": "/Receptai-Done/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5574d40.css",
-    "static/js/main.ecf8afbd.js"
+    "static/css/main.842b0b52.css",
+    "static/js/main.68202708.js"
   ]
 }
