@@ -52,7 +52,7 @@
     .row_list{
         margin-bottom: 10px;
         background-image: linear-gradient(to left, rgb(133 126 126 / 75%), rgba(36, 22, 153, 0.08));
-        box-shadow: 0 25.7em 5.5em 7.5em rgb(0 0 0);
+        box-shadow: 0 0.7em 1.5em -0.5em rgb(255 241 241 / 77%);
         margin-top: 10px;
         color: #879185;
         display: flex;
@@ -63,7 +63,8 @@
         height: 70vh;
         border-bottom: 1px solid;
         border-left: 1px solid;
-        border-right: 2px solid;
+        border-right: 5px solid;
+        border-top: 1px solid;
        
 
         border-radius: 2px 2px 21px 21px;
@@ -81,22 +82,22 @@
     justify-content: center;
     align-items: center;
     border-bottom: 10px;
-    box-shadow: 0 4.7em 5.5em 0.5em rgb(255 255 255);
-    background-color: #ffffff;
+   
+ 
 }
 
 .click_like{
-    color: #9f0e0e;
+  
     padding-top: 30px;
     font-size: 9px;
-    text-shadow: 3px 0px 14px rgb(255 255 255 / 39%);
+    text-shadow: 1px 1px 2px #cf6b6b, 0 0 1em white, 0 0 0.2em blue;
     font-family: initial;
-    margin-top: -502px;
+   
 }
 .img{
-    box-shadow: 0 0.7em 1.5em -0.5em rgb(39 114 61 / 60%);
     margin-bottom: 10px;
     max-height: 403px;
+    box-shadow: 0 1.7em 5.5em 1.5em rgb(255 241 241 / 77%);
     width: 42%;
     display: flex;
     align-items: center;
@@ -132,7 +133,7 @@
     line-height: 0px;
     box-shadow: 0 28.7em 5.5em 7.5em rgb(0 0 0 / 72%);
     background-image: linear-gradient(to left, rgba(85, 211, 20, 0.11),  rgba(227, 126, 0, 0.09));
-    margin-top: 10px;
+   margin-top: 22px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -154,7 +155,7 @@
     line-height: 0px;
     background-image: linear-gradient(to left, rgb(227 126 0 / 9%), rgb(85 211 20 / 11%));
     box-shadow: 0 0.7em 1.5em -0.5em rgb(25 48 112 / 77%);
-    margin-top: 10px;
+    margin-top: 22px;
     font-family: cursive;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -177,7 +178,7 @@
         border-radius: 21px;
         margin-left: 5px;
         margin-right: 5px;
-        background-color: #ffffff;
+       
        
        
     }   
@@ -197,11 +198,9 @@
     @media screen and (max-width: 648px) {
         .img {    
             border-radius: 80% 80% 80% 80%;
-            margin-top: -202px;
+            margin-top: -35px;
             position: absolute;
             width: 32%;
-           
-            margin-top: -202px;
             position: absolute;
             width: 32%;
             box-shadow: 0 12.7em 15.5em 7.5em rgb(255 255 255 / 56%);
@@ -225,7 +224,7 @@
 }
 @media screen and (max-width: 648px) {
     .right_side {
-        border-bottom: 10px solid rgba(255, 255, 255, 0.85);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.85);
         border-right: 9px solid rgba(255, 255, 255, 0.18);
         border-top: 1px solid rgba(255, 255, 255, 0.1607843137);
         border-radius: 1px;
@@ -242,9 +241,9 @@
     .left_side {
         border-radius: 1px;
         display: flex;
-        border-bottom: 9px solid rgb(255 255 255 / 46%);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.85);
         border-left: 1px solid rgba(255, 255, 255, 0.09);
-        border-right: 9px solid rgba(255, 255, 255, 0.79);
+        border-right: 2px solid rgba(255, 255, 255, 0.79);
         border-top: 1px solid rgba(255, 255, 255, 0.14);
         font-family: cursive;
         justify-content: flex-end;
