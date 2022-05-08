@@ -52,7 +52,7 @@
     .row_list{
         margin-bottom: 10px;
         background-image: linear-gradient(to left, rgba(159, 25, 25, 0.75), rgba(36, 22, 153, 0.08));
-        box-shadow: 0 25.7em 5.5em 7.5em rgb(115 155 102 / 68%);
+        box-shadow: 0 25.7em 5.5em 7.5em rgb(0 0 0);
         margin-top: 10px;
         color: #879185;
         display: flex;
@@ -78,7 +78,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 10px;
-    box-shadow: 0 -0.3em 1.5em 0.5em rgb(116 114 61 / 60%);
+    box-shadow: 0 -0.3em 1.5em 0.5em rgb(235 243 216 / 64%);
 }
 
 
@@ -119,42 +119,25 @@
     font-family: cursive;
     height: 67vh;
     line-height: 0px;
+    box-shadow: 0 28.7em 5.5em 7.5em rgb(0 0 0 / 72%);
     background-image: linear-gradient(to left, rgba(85, 211, 20, 0.11),  rgba(227, 126, 0, 0.09));
-    box-shadow: 0 0.7em 1.5em -0.5em rgb(39 114 61 / 60%);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 22%;
+    width: 29%;
     border-radius: 10px;
-    border-bottom: 1px solid #ffffff29;
-    border-left: 1px solid #ffffff29;
-    border-top: 1px solid #ffffff29;
+    border-bottom: 9px solid rgb(0 0 0 / 42%);
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+    border-right: 9px solid rgb(36 34 34 / 79%);
+    border-top: 1px solid rgb(255 255 255 / 61%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // line-height: 0px;
-    // background-image: linear-gradient(to left, rgba(159, 25, 25, 0.38), rgb(179, 179, 179));
-    // background-color: #ffffff;
-    // margin-top: 10px;
-    // margin-bottom: 10px;
-    // margin-left: 10px;
-    // margin-right: 10px;
-    // width: 22%;
-    // border-radius: 10px;
-    // border-bottom: 1px solid white;
-    // border-left: 1px solid white;
-    // border-top:1px solid white;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // color: black;
-    // height: 67vh;
+   
+   
 }
-// .column_list{
-//     border: 1px solid;
-//     width: 50%;
-// }
+
 .right_side{
     height: 67vh;
     line-height: 0px;
@@ -165,11 +148,11 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 22%;
+    width: 29%;
     border-radius: 10px;
-    border-bottom: 1px solid #ffffff29;
-    border-right: 1px solid #ffffff29;
-    border-top:1px solid #ffffff29;
+    border-bottom: 10px solid rgb(26 26 26 / 70%);
+    border-right: 9px solid rgb(68 36 36 / 60%);
+    border-top: 1px solid rgb(0 0 0 / 27%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,31 +163,37 @@
         display: flex;
         justify-content: space-around;
         background: none;
-        border-radius: 1px;
+        border-radius: 21px;
         margin-left: 5px;
         margin-right: 5px;
         background: none;
+        box-shadow: 0 -0.3em 1.5em 0.5em rgb(235 243 216 / 64%);
        
     }   
 }
 @media screen and (max-width: 648px) {
     .row_list {
-        border-radius: 1px;
-      
+        border-radius: 6px;
+        box-shadow: 0 25.7em 5.5em 7.5em rgb(0 0 0);
         width: 95%;
         background: none;
-        background-image: linear-gradient(to left, rgb(46 171 23 / 20%), rgba(5, 6, 6, 0.7));
-        box-shadow: 0 25.7em 5.5em 7.5em rgb(2 10 4);
+       
+      
 }
 
 
      
     @media screen and (max-width: 648px) {
         .img {    
-            border-radius: 0 0 80% 80%;
+            border-radius: 80% 80% 80% 80%;
             margin-top: -202px;
             position: absolute;
             width: 32%;
+           
+            margin-top: -202px;
+            position: absolute;
+            width: 32%;
+            box-shadow: 0 12.7em 15.5em 7.5em rgb(255 255 255 / 56%);
         }
 }
 // @media screen and (max-width: 648px) {
@@ -225,12 +214,15 @@
 }
 @media screen and (max-width: 648px) {
     .right_side {
+        border-bottom: 10px solid rgba(255, 255, 255, 0.85);
+        border-right: 9px solid rgba(255, 255, 255, 0.18);
+        border-top: 1px solid rgba(255, 255, 255, 0.1607843137);
         border-radius: 1px;
         display: flex;
         justify-content: flex-end;
         min-width: 45%;
     text-align: right;
-    margin-left: -4.7%;
+    margin-left: -10%;
     padding-right: 30px;
     background-image: linear-gradient(to left, rgb(1 10 34 / 75%), rgb(0 0 0 / 11%));
     box-shadow: 0 0.7em 1.5em -0.5em rgb(255 241 241 / 77%);
@@ -239,12 +231,16 @@
     .left_side {
         border-radius: 1px;
         display: flex;
+        border-bottom: 9px solid rgb(255 255 255 / 46%);
+        border-left: 1px solid rgba(255, 255, 255, 0.09);
+        border-right: 9px solid rgba(255, 255, 255, 0.79);
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
         font-family: cursive;
         justify-content: flex-end;
         min-width: 45%;
         text-align: left;
         padding-left: 30px;
-        margin-left: 4.7%;
+        margin-right: 4.7%;
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0.11), rgb(3 6 12));
         box-shadow: 0 0.7em 1.5em -0.5em rgb(255 241 241 / 77%);
       
