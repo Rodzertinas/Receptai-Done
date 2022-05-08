@@ -88,12 +88,18 @@
 .click_like{
     font-size: 15px;
     text-shadow: 1px 1px 2px #cf6b6b, 0 0 1em white, 0 0 0.2em #382121;
-    margin-top: -57px;
+    margin-top: -5%;
     font-family: initial;
     box-shadow: 0 -7.3em 9.5em 1.5em rgb(255 241 241 / 77%);
     border-radius: 200% 200% 1px 1px;
-    border-top: 63px solid white;
+    border-top: 47px solid white;
    
+}
+.heart{
+    margin-top: -58px;
+    position: absolute;
+    margin-left: -115px;
+    cursor: pointer;
 }
 .img{
     margin-bottom: 10px;
@@ -142,10 +148,7 @@
     margin-right: 10px;
     width: 29%;
     border-radius: 10px;
-    border-bottom: 10px solid rgb(255 255 255 / 70%);
-    border-left: 1px solid rgba(255, 255, 255, 0.09);
-    border-right: 9px solid rgb(124 122 122 / 79%);
-    border-top: 1px solid rgb(255 255 255 / 61%);
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,9 +168,7 @@
     margin-right: 10px;
     width: 29%;
     border-radius: 10px;
-    border-bottom: 10px solid rgb(255 255 255 / 70%);
-    border-right: 9px solid rgb(124 122 122 / 79%);
-    border-top: 1px solid rgb(255 255 255 / 61%);
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,9 +229,9 @@
 @media screen and (max-width: 648px) {
     .right_side {
         border-bottom: 2px solid rgba(255, 255, 255, 0.85);
-        border-right: 9px solid rgba(255, 255, 255, 0.18);
+        border-left: 1px solid;
         border-top: 1px solid rgba(255, 255, 255, 0.1607843137);
-        border-radius: 1px;
+        border-radius: 0px 10px 1px 1px;
         display: flex;
         justify-content: start;
         min-width: 45%;
@@ -242,11 +243,9 @@
 }
 @media screen and (max-width: 648px) {
     .left_side {
-        border-radius: 1px;
+        border-radius: 10px 1px 1px 1px;
         display: flex;
         border-bottom: 2px solid rgba(255, 255, 255, 0.85);
-        border-left: 1px solid rgba(255, 255, 255, 0.09);
-        border-right: 2px solid rgba(255, 255, 255, 0.79);
         border-top: 1px solid rgba(255, 255, 255, 0.14);
         font-family: cursive;
         justify-content: start;

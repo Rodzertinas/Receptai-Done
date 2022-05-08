@@ -1,7 +1,12 @@
+import heart from '../Components/heart.svg';
+{ <img className='heart' src={heart} alt='' /> }
+
 
 function ReceptList({ receptas }) {
     return (
+      
         <div className='column_list'>
+           {/* <img className='heart' src={heart} alt='' />   */}
             <div className="row_list">
                     <div className="left_side">
                     {Object.keys(receptas).map((key, i) => {
@@ -33,12 +38,13 @@ function ReceptList({ receptas }) {
                         }
                       })}
                    </div>    
-                                
+                       
             </div >  
             <div className="click_like">
               
             <h2  >
-                    Click like if you like
+                    {/* Click like if you like */}
+                   
             </h2>   
             </div> 
         </div>  
