@@ -30,7 +30,7 @@
         margin-left: 183px;
         font-family: inherit;
         padding: 0.7em 1.4em 0.7em 1.1em;
-        color: #620000;
+        color: #ffffff;
         width: 117px;
         height: 40px;
         font-size: 13px;
@@ -61,13 +61,12 @@
         justify-content: inherit;
         line-height: 5px;
         height: 70vh;
-        border-bottom: 1px solid;
         border-left: 1px solid;
         border-right: 5px solid;
         border-top: 1px solid;
        
 
-        border-radius: 2px 2px 21px 21px;
+        border-radius: 21px 21px 1px 1px;
         width: 96%;
 }
 
@@ -87,11 +86,13 @@
 }
 
 .click_like{
-  
-    padding-top: 30px;
-    font-size: 9px;
-    text-shadow: 1px 1px 2px #cf6b6b, 0 0 1em white, 0 0 0.2em blue;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #cf6b6b, 0 0 1em white, 0 0 0.2em #382121;
+    margin-top: -57px;
     font-family: initial;
+    box-shadow: 0 -7.3em 9.5em 1.5em rgb(255 241 241 / 77%);
+    border-radius: 200% 200% 1px 1px;
+    border-top: 63px solid white;
    
 }
 .img{
@@ -103,6 +104,8 @@
     align-items: center;
     border-radius: 10px;
     margin-top: 10px;
+    border: 1px solid white;
+
 }
 .paragraph{
     color: #193819;
@@ -139,9 +142,9 @@
     margin-right: 10px;
     width: 29%;
     border-radius: 10px;
-    border-bottom: 9px solid rgb(0 0 0 / 42%);
+    border-bottom: 10px solid rgb(255 255 255 / 70%);
     border-left: 1px solid rgba(255, 255, 255, 0.09);
-    border-right: 9px solid rgb(36 34 34 / 79%);
+    border-right: 9px solid rgb(124 122 122 / 79%);
     border-top: 1px solid rgb(255 255 255 / 61%);
     display: flex;
     flex-direction: column;
@@ -162,9 +165,9 @@
     margin-right: 10px;
     width: 29%;
     border-radius: 10px;
-    border-bottom: 10px solid rgb(26 26 26 / 70%);
-    border-right: 9px solid rgb(68 36 36 / 60%);
-    border-top: 1px solid rgb(0 0 0 / 27%);
+    border-bottom: 10px solid rgb(255 255 255 / 70%);
+    border-right: 9px solid rgb(124 122 122 / 79%);
+    border-top: 1px solid rgb(255 255 255 / 61%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,7 +188,7 @@
 }
 @media screen and (max-width: 648px) {
     .row_list {
-        border-radius: 2px 2px 21px 21px;
+        
         box-shadow: 0 25.7em 5.5em 7.5em rgb(0 0 0);
         width: 95%;
         background: none;

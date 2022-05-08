@@ -38,7 +38,7 @@ function ReceptList({ receptas }) {
             <div className="click_like">
               
             <h2  >
-                    Click like if you like!!!
+                    Click like if you like
             </h2>   
             </div> 
         </div>  
