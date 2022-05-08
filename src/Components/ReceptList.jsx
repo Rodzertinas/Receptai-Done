@@ -34,10 +34,13 @@ function ReceptList({ receptas }) {
                       })}
                    </div>    
                                 
-            </div>    
-            {/* <h2 className="paragraph">
+            </div >  
+            <div className="click_like">
+              
+            <h2  >
                     Click like if you like!!!
-            </h2>    */}
+            </h2>   
+            </div> 
         </div>  
         
        )
